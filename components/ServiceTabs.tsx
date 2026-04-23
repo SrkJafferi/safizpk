@@ -23,15 +23,23 @@ export default function ServiceTabs() {
     return () => observer.disconnect();
   }, []);
 
+  const isFirstRender = useRef(true);
+
   // Auto-scroll active tab into view on mobile
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+
     if (tabBarRef.current) {
       const activeBtn = tabBarRef.current.children[activeTab] as HTMLElement;
       if (activeBtn) {
-        activeBtn.scrollIntoView({
+        const container = tabBarRef.current;
+        const scrollPos = activeBtn.offsetLeft - (container.clientWidth / 2) + (activeBtn.clientWidth / 2);
+        container.scrollTo({
+          left: scrollPos,
           behavior: "smooth",
-          block: "nearest",
-          inline: "center",
         });
       }
     }
@@ -71,8 +79,8 @@ export default function ServiceTabs() {
                 key={cat.id}
                 onClick={() => setActiveTab(i)}
                 className={`relative whitespace-nowrap px-5 py-3 rounded-xl text-sm font-display font-semibold transition-all duration-300 shrink-0 ${activeTab === i
-                    ? "bg-primary text-white shadow-lg shadow-primary/20"
-                    : "bg-bg-card text-text-muted hover:text-text-primary hover:bg-bg-card-hover border border-border"
+                  ? "bg-primary text-white shadow-lg shadow-primary/20"
+                  : "bg-bg-card text-text-muted hover:text-text-primary hover:bg-bg-card-hover border border-border"
                   }`}
               >
                 {cat.title}
@@ -90,8 +98,8 @@ export default function ServiceTabs() {
             <div
               key={cat.id}
               className={`transition-all duration-500 ${activeTab === i
-                  ? "block opacity-100"
-                  : "hidden opacity-0"
+                ? "block opacity-100"
+                : "hidden opacity-0"
                 }`}
             >
               {/* Category Header */}
