@@ -21,7 +21,7 @@ export default function CTA() {
       <div className="relative rounded-[2.5rem] bg-gradient-to-br from-primary to-primary-dark p-8 sm:p-10 md:p-14 lg:p-16 overflow-hidden shadow-2xl shadow-primary/20 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8">
         {/* Decorative Light */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-white/10 rounded-full blur-[120px] translate-x-1/3 -translate-y-1/3 pointer-events-none" />
-        
+
         {/* Left Content */}
         <div className="relative z-10 lg:w-3/5">
           <h2 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-white mb-6 leading-[1.1]">
@@ -39,10 +39,10 @@ export default function CTA() {
               Request a Quote <ArrowRight className="w-5 h-5" />
             </a>
             <a
-              href="tel:+923002168915"
+              href="tel:+923151282583"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent border-2 border-white/30 hover:bg-white/10 text-white font-display font-bold text-base rounded-full transition-all"
             >
-              <Phone className="w-5 h-5" /> Call +92 300 2168915
+              <Phone className="w-5 h-5" /> Call +92 315 1282583
             </a>
           </div>
         </div>
