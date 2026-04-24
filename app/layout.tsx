@@ -22,7 +22,7 @@ const plusJakartaBody = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "SAFIZ | Unlimited Printing & Advertising Solutions — Pakistan & UAE",
   description:
-    "SAFIZ is Pakistan's leading printing, signage and advertising company with offices in Karachi and Ajman UAE. Serving 100+ brands since 2005.",
+    "SAFIZ is Pakistan's leading printing, signage and advertising company with offices in Karachi and Ajman UAE. Serving 100+ brands since 1980.",
   keywords: [
     "printing services Pakistan",
     "signage Karachi",
