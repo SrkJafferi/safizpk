@@ -52,9 +52,9 @@ export default function Footer() {
             {/* Col 1 — Brand */}
             <div className="lg:col-span-1 lg:pr-6">
               <a href="#hero" onClick={(e) => { e.preventDefault(); scrollTo("#hero"); }} className="inline-block mb-6 group">
-                <img 
-                  src="/assets/safizlogo.png" 
-                  alt="Safiz Logo" 
+                <img
+                  src="/assets/safizlogo.png"
+                  alt="Safiz Logo"
                   className="h-12 md:h-14 w-auto object-contain mb-2"
                 />
                 <span className="text-[11px] uppercase tracking-[0.3em] text-text-muted font-mono block group-hover:text-primary transition-colors">
@@ -132,19 +132,19 @@ export default function Footer() {
                 {serviceCategories
                   .filter(cat => cat.id !== "it-services")
                   .map((cat) => (
-                  <li key={cat.id}>
-                    <a
-                      href="#services"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollTo("#services");
-                      }}
-                      className="font-body text-sm text-text-muted hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block"
-                    >
-                      {cat.id === "digital-design" ? "Digital Design / IT Services" : cat.title}
-                    </a>
-                  </li>
-                ))}
+                    <li key={cat.id}>
+                      <a
+                        href="#services"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          scrollTo("#services");
+                        }}
+                        className="font-body text-sm text-text-muted hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block"
+                      >
+                        {cat.id === "digital-design" ? "Digital Design / IT Services" : cat.title}
+                      </a>
+                    </li>
+                  ))}
               </ul>
             </div>
 
@@ -164,7 +164,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-3 text-sm text-text-muted hover:text-primary transition-colors">
                   <svg className="w-5 h-5 text-primary shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                  <a href="tel:+923002168915">+92 300 2168915</a>
+                  <a href="tel:+923151282583">+92 315 1282583</a>
                 </li>
               </ul>
 
