@@ -82,7 +82,7 @@ export default function Hero() {
               }`}
           >
             Pakistan&apos;s leading printing, signage &amp; advertising partner
-            — trusted by 100+ brands across Pakistan &amp; UAE since 2005.
+            — trusted by 100+ brands across Pakistan &amp; UAE since 1980.
           </p>
 
           {/* CTA Buttons */}
@@ -171,7 +171,7 @@ export default function Hero() {
             </defs>
             <text className="fill-text-muted text-[14px] uppercase tracking-[0.35em]">
               <textPath href="#circlePath" className="font-mono">
-                EST. 2005 · SAFIZ GROUP · PREMIUM ·{" "}
+                EST. 1980 · SAFIZ GROUP · PREMIUM ·{" "}
               </textPath>
             </text>
           </svg>
