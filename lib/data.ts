@@ -322,7 +322,7 @@ export const offices: Office[] = [
     city: "Karachi",
     address:
       "Office 327, Hakim Center, Abdullah Haroon Road, Saddar, Karachi",
-    phones: ["+92 300 2168915", "+92 315 1282583"],
+    phones: ["+92 315 1282583", "+92 315 1282583"],
     emails: ["info@safiz.pk"],
     website: "www.safiz.pk",
   },
