@@ -424,7 +424,7 @@ export const stats: Stat[] = [
 // ─── Sister Companies ───────────────────────────────────────────────
 
 export const sisterCompanies: string[] = [
-  "Safiz Express",
+  "Express Advertising",
   "Safi & Co. Advertiser",
   "Creative Brand",
   "Khuddam-e-Makkah",
