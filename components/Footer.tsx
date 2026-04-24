@@ -63,7 +63,7 @@ export default function Footer() {
               </a>
               <p className="font-body text-text-muted text-sm leading-relaxed mb-8 max-w-xs">
                 Pakistan&apos;s leading printing, signage &amp; advertising
-                company. Delivering bold visual experiences since 2005.
+                company. Delivering bold visual experiences since 1980.
               </p>
 
               {/* Social Icons */}
