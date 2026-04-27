@@ -44,7 +44,7 @@ export default function Clients() {
             <span className="text-gradient">Leading Brands</span>
           </h2>
           <p className="font-body text-text-muted text-base md:text-lg max-w-2xl mx-auto">
-            Empowering government institutions and global brands across Pakistan and the UAE.
+            From government institutions to global corporations — proudly serving diverse clients across Pakistan and the UAE.
           </p>
         </div>
 
