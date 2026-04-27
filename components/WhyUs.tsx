@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { whyUsFeatures, marqueeClients } from "@/lib/data";
+import { whyUsFeatures } from "@/lib/data";
 import { Award, Users, Zap, Globe } from "lucide-react";
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -29,10 +29,10 @@ export default function WhyUs() {
     return () => observer.disconnect();
   }, []);
 
-  const tickerItems = [...marqueeClients, ...marqueeClients];
+
 
   return (
-    <section id="why-us" className="relative py-20 md:py-32 overflow-hidden">
+    <section id="why-us" className="relative pt-20 md:pt-32 pb-10 md:pb-12 overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/3 rounded-full blur-[150px]" />
 
@@ -57,7 +57,7 @@ export default function WhyUs() {
         </div>
 
         {/* Feature Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-0">
           {whyUsFeatures.map((feature, i) => (
             <div
               key={feature.title}
@@ -86,30 +86,7 @@ export default function WhyUs() {
           ))}
         </div>
 
-        {/* Marquee Ticker */}
-        <div
-          className={`relative transition-all duration-700 delay-500 ${
-            visible ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          {/* Fade edges */}
-          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-dark to-transparent z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-dark to-transparent z-10" />
 
-          <div className="overflow-hidden py-6 border-y border-border">
-            <div className="animate-ticker flex items-center gap-8 whitespace-nowrap">
-              {tickerItems.map((client, i) => (
-                <span
-                  key={`${client}-${i}`}
-                  className="flex items-center gap-3 text-text-muted/40 font-display font-bold text-lg md:text-xl shrink-0"
-                >
-                  {client}
-                  <span className="w-2 h-2 bg-primary/30 rounded-full shrink-0" />
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
