@@ -376,7 +376,7 @@ export const pakistanLogos = [
 ];
 
 
-// ─── Offices ────────────────────────────────────────────────────────
+// ─── Officess ────────────────────────────────────────────────────────
 
 export interface Office {
   label: string;
