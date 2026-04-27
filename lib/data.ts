@@ -15,7 +15,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "printing",
     title: "Printing Services",
     icon: "Printer",
-    image: "https://images.unsplash.com/photo-1562564055-71e051d33c19?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1706895040634-62055892cbbb?w=600&q=80",
     description: "Business cards to brochures — precision print for every need.",
     itemCount: 11,
     products: [
@@ -37,7 +37,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "signage",
     title: "Signage",
     icon: "SignpostBig",
-    image: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1650570296174-a7b5e5dfc848?w=800&q=80",
     description: "Indoor, outdoor, 2D, 3D — signs that command attention.",
     itemCount: 9,
     products: [
@@ -56,7 +56,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "large-format",
     title: "Large Format Printing",
     icon: "Frame",
-    image: "https://images.unsplash.com/photo-1598425237654-4fc758e50a93?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1693031630369-bd429a57f115?w=800&q=80",
     description: "Banners to vehicle wraps — go big or go home.",
     itemCount: 11,
     products: [
@@ -77,7 +77,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "promotional",
     title: "Promotional Items",
     icon: "Gift",
-    image: "https://images.unsplash.com/photo-1614036634955-ae5e90f9b9eb?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1416339134316-0e91dc9ded92?w=800&q=80",
     description: "Branded merchandise that keeps your name in hand.",
     itemCount: 13,
     products: [
@@ -100,7 +100,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "brand-collateral",
     title: "Brand Collateral",
     icon: "PenTool",
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1681894414016-4f4d5be73427?w=800&q=80",
     description: "Letterheads, tags, stationery — every touchpoint branded.",
     itemCount: 6,
     products: [
@@ -134,7 +134,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "vehicle-branding",
     title: "Vehicle Branding",
     icon: "Car",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1772817337505-33bdd6f4004f?w=800&q=80",
     description: "Full and partial vehicle wraps to turn your fleet into mobile billboards.",
     itemCount: 4,
     products: [
