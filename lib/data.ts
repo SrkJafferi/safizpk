@@ -278,6 +278,37 @@ export const uaeClients: string[] = [
   "Bundoo Khan's",
 ];
 
+export const uaeLogos = [
+  { name: "Ajman Police", src: "/clients/uae/Ajman Police.webp" },
+  { name: "Al Haaj Bando Khan", src: "/clients/uae/Al Haaj Bando Khan.webp" },
+  { name: "Al Takamul", src: "/clients/uae/Al Takamul.webp" },
+  { name: "Amer", src: "/clients/uae/Amer.webp" },
+  { name: "Ana Medical Equipment", src: "/clients/uae/Ana Medical Equipment.webp" },
+  { name: "BNI", src: "/clients/uae/BNI.webp" },
+  { name: "Cosmedent Clinic", src: "/clients/uae/Cosmedent Cilinic.webp" },
+  { name: "First Motors", src: "/clients/uae/First Motors.webp" },
+  { name: "GEMS Westminister School", src: "/clients/uae/GEMS Westminister School.webp" },
+  { name: "Gulf & World", src: "/clients/uae/Gulf & World.webp" },
+  { name: "HBC", src: "/clients/uae/HBC.webp" },
+  { name: "La Mariques", src: "/clients/uae/La Mariques.webp" },
+  { name: "Makkah Pharmacy", src: "/clients/uae/Makkah Pharmacy.webp" },
+  { name: "Mashriq Elite", src: "/clients/uae/Mashriq Elite.webp" },
+  { name: "Medtra", src: "/clients/uae/Medtra.webp" },
+  { name: "Student Biryani", src: "/clients/uae/Student Biryani.webp" },
+  { name: "Subway", src: "/clients/uae/Subway.webp" },
+  { name: "TP Link", src: "/clients/uae/TP Link.webp" },
+  { name: "Tad-beer", src: "/clients/uae/Tad-beer.webp" },
+  { name: "Tas-heel", src: "/clients/uae/Tas-heel.webp" },
+  { name: "Taw-jeeh", src: "/clients/uae/Taw-jeeh.webp" },
+  { name: "UAE Hockey Federation", src: "/clients/uae/UAE Hockey Federation.webp" },
+  { name: "W3 Canada", src: "/clients/uae/W3 Canada.webp" },
+  { name: "YOKO Spa Beauty", src: "/clients/uae/YOKO Spa Beuty.webp" },
+  { name: "Dubai Police", src: "/clients/uae/dubai Police.webp" },
+  { name: "Easytruck", src: "/clients/uae/easytruck.webp" },
+  { name: "University of Sharjah", src: "/clients/uae/univesity of sharjah.webp" },
+];
+
+
 export const pakistanClients: string[] = [
   "Pakistan Army",
   "FBR",
@@ -304,6 +335,46 @@ export const pakistanClients: string[] = [
   "Karachi Port",
   "Pakistan Boxing Federation",
 ];
+
+export const pakistanLogos = [
+  { name: "ASF", src: "/clients/pakistan/ASF.webp" },
+  { name: "Agha Khan University", src: "/clients/pakistan/Agha Khan University.webp" },
+  { name: "BOSCH Pharma", src: "/clients/pakistan/BOSCH Pharma.webp" },
+  { name: "Bank ALfalah", src: "/clients/pakistan/Bank ALfalah.webp" },
+  { name: "CPSP", src: "/clients/pakistan/CPSP.webp" },
+  { name: "DHL", src: "/clients/pakistan/DHL.webp" },
+  { name: "DUHS", src: "/clients/pakistan/DUHS.webp" },
+  { name: "FBR", src: "/clients/pakistan/FBR.webp" },
+  { name: "Fatima Jinnah Dental College", src: "/clients/pakistan/Fatima Jinnah Dental College.webp" },
+  { name: "GOVT OF SINDH", src: "/clients/pakistan/GOVT OF SINDH.webp" },
+  { name: "Governor House", src: "/clients/pakistan/Governor House.webp" },
+  { name: "HBL", src: "/clients/pakistan/HBL.webp" },
+  { name: "ISI", src: "/clients/pakistan/ISI.webp" },
+  { name: "Inter Selection Board Malir", src: "/clients/pakistan/Inter Selection Board Malir.webp" },
+  { name: "KE", src: "/clients/pakistan/KE.webp" },
+  { name: "KPT", src: "/clients/pakistan/KPT.webp" },
+  { name: "KU", src: "/clients/pakistan/KU.webp" },
+  { name: "Kidney Center", src: "/clients/pakistan/Kidney Center.webp" },
+  { name: "MCB", src: "/clients/pakistan/MCB.webp" },
+  { name: "NBL", src: "/clients/pakistan/NBL.webp" },
+  { name: "NED", src: "/clients/pakistan/NED.webp" },
+  { name: "PAK KIET", src: "/clients/pakistan/PAK KIET.webp" },
+  { name: "Pak Army", src: "/clients/pakistan/Pak Army.webp" },
+  { name: "Pakistan Air Force", src: "/clients/pakistan/Pakistan Air Force.webp" },
+  { name: "Pakistan Boxing Federation", src: "/clients/pakistan/Pakistan Boxing Federation.webp" },
+  { name: "Pakistan Institute", src: "/clients/pakistan/Pakistan Institute.webp" },
+  { name: "Paksitan Navy", src: "/clients/pakistan/Paksitan Navy.webp" },
+  { name: "ROCHE Pharma", src: "/clients/pakistan/ROCHE Pharma.webp" },
+  { name: "SINDH Police", src: "/clients/pakistan/SINDH Police.webp" },
+  { name: "SJAS", src: "/clients/pakistan/SJAS.webp" },
+  { name: "Transparency Internatonal", src: "/clients/pakistan/Transparency Internatonal.webp" },
+  { name: "Unilever", src: "/clients/pakistan/Unilever.webp" },
+  { name: "WATER BOARD", src: "/clients/pakistan/WATER BOARD.webp" },
+  { name: "liaquat National Hospital", src: "/clients/pakistan/liaquat National Hospital.webp" },
+  { name: "muhammadi blood bank", src: "/clients/pakistan/muhammadi blood bank.webp" },
+  { name: "pakistan air force base faisal", src: "/clients/pakistan/pakistan air force base faisal.webp" },
+];
+
 
 // ─── Offices ────────────────────────────────────────────────────────
 
