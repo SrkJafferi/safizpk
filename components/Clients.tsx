@@ -28,7 +28,7 @@ export default function Clients() {
   return (
     <section
       id="clients"
-      className="relative py-20 md:py-32 bg-surface overflow-hidden"
+      className="relative pt-10 md:pt-12 pb-20 md:pb-32 bg-surface overflow-hidden"
     >
       <div ref={ref} className="relative z-10">
         {/* Section Header */}
