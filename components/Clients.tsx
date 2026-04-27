@@ -88,7 +88,7 @@ export default function Clients() {
           </div>
         </div>
 
-        {/* Pakistan Row — scrolls right */}
+        {/* Pakistan Row — scrolls rights */}
         <div
           className={`transition-all duration-700 delay-400 ${visible ? "opacity-100" : "opacity-0"
             }`}
