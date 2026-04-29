@@ -53,7 +53,7 @@ export default function Hero() {
               : "opacity-0 translate-y-8"
               } stagger-1`}
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 font-mono text-xs uppercase tracking-[0.3em] text-primary mb-8">
+            <span className="inline-flex items-center gap-2 px-4 py-20 rounded-full border border-primary/30 bg-primary/5 font-mono text-xs uppercase tracking-[0.3em] text-primary mb-8" style={{ marginBottom: "-40px" }}>
               <span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
               Karachi · Pakistan · UAE
             </span>
