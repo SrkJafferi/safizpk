@@ -74,14 +74,6 @@ export default function About() {
         className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8"
       >
         {/* Section Label */}
-        <div
-          className={`mb-16 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-            }`}
-        >
-          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 font-mono text-[13px] uppercase tracking-[0.3em] text-primary mb-6">
-            About Us
-          </span>
-        </div>
 
         {/* Two Column Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-stretch">
@@ -92,6 +84,9 @@ export default function About() {
               : "opacity-0 translate-y-8"
               }`}
           >
+            <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 font-mono text-[13px] uppercase tracking-[0.3em] text-primary mb-6">
+              About Us
+            </span>
             <h2 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl leading-[1.1] tracking-tight text-text-primary mb-8">
               Turning Brand Ideas Into{" "}
               <span className="relative inline-block">
@@ -179,11 +174,11 @@ export default function About() {
           <div className="relative p-8 md:p-12 rounded-3xl bg-[#0a0a0a] border border-white/5 border-l-4 border-l-primary overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_-15px_rgba(229,37,42,0.2)] hover:border-white/10">
             {/* Subtle interactive background glow */}
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-            
+
             <h3 className="relative font-display text-sm font-bold uppercase tracking-[0.25em] text-primary mb-6 transition-transform duration-500 group-hover:translate-x-2 flex items-center gap-3">
               Our Mission
             </h3>
-            
+
             <p className="relative font-body text-white/80 text-base md:text-lg leading-relaxed">
               To empower businesses with world-class printing, signage, and
               advertising solutions that elevate brand visibility, drive
@@ -195,11 +190,11 @@ export default function About() {
           {/* Vision */}
           <div className="relative p-8 md:p-12 rounded-3xl bg-[#0a0a0a] border border-white/5 border-l-4 border-l-primary overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_-15px_rgba(229,37,42,0.2)] hover:border-white/10">
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-            
+
             <h3 className="relative font-display text-sm font-bold uppercase tracking-[0.25em] text-primary mb-6 transition-transform duration-500 group-hover:translate-x-2 flex items-center gap-3">
               Our Vision
             </h3>
-            
+
             <p className="relative font-body text-white/80 text-base md:text-lg leading-relaxed">
               To become the most trusted creative production house across
               Pakistan and the Middle East — known for innovation, reliability,
