@@ -97,10 +97,10 @@ export default function About() {
             <p className="font-body text-text-muted text-base md:text-lg leading-relaxed mb-8">
               We are Safi &amp; Co., a division of Safiz Group. From standout
               signage to premium printing and impactful promotional materials,
-              our work is designed to connect, communicate, and perform.
+              our work is designed to connect, communicate, and perform. With a team of experienced professionals and a commitment to quality.
             </p>
             <p className="font-body text-text-muted text-base md:text-lg leading-relaxed mb-10">
-              With offices in Karachi and Ajman UAE, we serve 100+ brands across
+              With offices in Karachi and Ajman UAE, we serve 1000+ brands across
               Pakistan and the Gulf — delivering consistent quality, creative
               precision, and reliable turnaround every single time.
             </p>
@@ -112,12 +112,24 @@ export default function About() {
               </span>
               <div className="flex flex-wrap gap-2">
                 {sisterCompanies.map((company) => (
-                  <span
-                    key={company}
-                    className="px-4 py-2 rounded-full bg-[#d02d2c] text-sm font-body text-white hover:bg-[#b82726] transition-all duration-300 cursor-default shadow-md"
-                  >
-                    {company}
-                  </span>
+                  company.href ? (
+                    <a
+                      key={company.name}
+                      href={company.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 rounded-full bg-[#d02d2c] text-sm font-body text-white hover:bg-[#b82726] transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                    >
+                      {company.name}
+                    </a>
+                  ) : (
+                    <span
+                      key={company.name}
+                      className="px-4 py-2 rounded-full bg-[#d02d2c] text-sm font-body text-white hover:bg-[#b82726] transition-all duration-300 cursor-default shadow-md"
+                    >
+                      {company.name}
+                    </span>
+                  )
                 ))}
               </div>
             </div>
