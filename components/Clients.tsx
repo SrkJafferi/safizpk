@@ -69,7 +69,7 @@ export default function Clients() {
                   className="shrink-0 flex flex-col items-center gap-2 group"
                 >
                   <div className="w-32 h-16 md:w-40 md:h-20 px-4 py-2 rounded-xl border border-border bg-bg-card/50 flex items-center justify-center group-hover:border-primary/30 transition-all duration-300">
-                    <div className="relative w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500">
+                    <div className="relative w-full h-full transition-all duration-500">
                       <Image
                         src={client.src}
                         alt={client.name}
@@ -108,7 +108,7 @@ export default function Clients() {
                   className="shrink-0 flex flex-col items-center gap-2 group"
                 >
                   <div className="w-32 h-16 md:w-40 md:h-20 px-4 py-2 rounded-xl border border-border bg-bg-card/50 flex items-center justify-center group-hover:border-primary/30 transition-all duration-300">
-                    <div className="relative w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500">
+                    <div className="relative w-full h-full transition-all duration-500">
                       <Image
                         src={client.src}
                         alt={client.name}
