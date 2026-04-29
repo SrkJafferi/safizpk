@@ -52,9 +52,9 @@ export default function Footer() {
             {/* Col 1 — Brand */}
             <div className="lg:col-span-1 lg:pr-6">
               <a href="#hero" onClick={(e) => { e.preventDefault(); scrollTo("#hero"); }} className="inline-block mb-6 group">
-                <img 
-                  src="/assets/safizlogo.png" 
-                  alt="Safiz Logo" 
+                <img
+                  src="/assets/safizlogo.png"
+                  alt="Safiz Logo"
                   className="h-12 md:h-14 w-auto object-contain mb-2"
                 />
                 <span className="text-[11px] uppercase tracking-[0.3em] text-text-muted font-mono block group-hover:text-primary transition-colors">
@@ -132,19 +132,19 @@ export default function Footer() {
                 {serviceCategories
                   .filter(cat => cat.id !== "it-services")
                   .map((cat) => (
-                  <li key={cat.id}>
-                    <a
-                      href="#services"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollTo("#services");
-                      }}
-                      className="font-body text-sm text-text-muted hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block"
-                    >
-                      {cat.id === "digital-design" ? "Digital Design / IT Services" : cat.title}
-                    </a>
-                  </li>
-                ))}
+                    <li key={cat.id}>
+                      <a
+                        href="#services"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          scrollTo("#services");
+                        }}
+                        className="font-body text-sm text-text-muted hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block"
+                      >
+                        {cat.id === "digital-design" ? "Digital Design / IT Services" : cat.title}
+                      </a>
+                    </li>
+                  ))}
               </ul>
             </div>
 
@@ -193,12 +193,24 @@ export default function Footer() {
             </p>
             <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2 mt-4 sm:mt-0">
               {sisterCompanies.map((company) => (
-                <span
-                  key={company}
-                  className="px-3 py-1.5 rounded-full bg-[#d02d2c] text-[11px] font-body text-white cursor-default shadow-md hover:bg-[#b82726] transition-colors"
-                >
-                  {company}
-                </span>
+                company.href ? (
+                  <a
+                    key={company.name}
+                    href={company.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 py-1.5 rounded-full bg-[#d02d2c] text-[11px] font-body text-white shadow-md hover:bg-[#b82726] transition-all duration-300 hover:-translate-y-0.5"
+                  >
+                    {company.name}
+                  </a>
+                ) : (
+                  <span
+                    key={company.name}
+                    className="px-3 py-1.5 rounded-full bg-[#d02d2c] text-[11px] font-body text-white cursor-default shadow-md hover:bg-[#b82726] transition-colors"
+                  >
+                    {company.name}
+                  </span>
+                )
               ))}
             </div>
           </div>
