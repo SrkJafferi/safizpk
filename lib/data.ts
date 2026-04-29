@@ -494,13 +494,18 @@ export const stats: Stat[] = [
 
 // ─── Sister Companies ───────────────────────────────────────────────
 
-export const sisterCompanies: string[] = [
-  "Express Advertising",
-  "Safi & Co. Advertiser",
-  "Creative Brand",
-  "Khuddam-e-Makkah",
-  "PakiWebHost",
-  "Safiz Catering",
+export interface SisterCompany {
+  name: string;
+  href?: string;
+}
+
+export const sisterCompanies: SisterCompany[] = [
+  { name: "Express Advertising" },
+  { name: "Safi & Co. Advertiser", href: "https://safico5.com" },
+  { name: "Creative Brand" },
+  { name: "Khuddam-e-Makkah" },
+  { name: "PakiWebHost", href: "https://pakiwebhost.com" },
+  { name: "Safiz Catering" },
 ];
 
 // ─── Nav Links ──────────────────────────────────────────────────────
